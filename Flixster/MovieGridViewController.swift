@@ -70,8 +70,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         
-        print("Loading up Details")
-        
         // Find the Selected Movie
         let cell = sender as! UICollectionViewCell
         let indexPath = collectionView.indexPath(for: cell)!
@@ -80,6 +78,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         // Pass the selected movie to the details view controller
         let detailsViewController = segue.destination as! MovieGridDetailsViewController
         detailsViewController.movie = movie
+        
+        
     }
     
 
