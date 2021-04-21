@@ -38,8 +38,5 @@ Describe any challenges encountered while building the app.
 - [X] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/r1scpg0mAR.gif" width=250><br>
-### Notes
-Describe any challenges encountered while building the app.
-* Auto scaling was an issue, specifically getting the text to scale with other devices.
-* Working with tables to make it visually appealing
+<img src="http://g.recordit.co/3bdjlbIQeQ.gif" width=250><br>
+
